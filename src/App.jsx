@@ -1,10 +1,12 @@
+const API_KEY = "AIzaSyA3mLPyMbFjiyrZ4A7gTqThJvkbFVXj87w";
+
 import React, { useState, useEffect, useRef } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, TextInput, Modal, Alert, SafeAreaView, StatusBar, Platform } from 'react-native';
 import { styled } from 'nativewind';
 import { Plane, Waves, Sun, Moon, Utensils, MapPin, Camera, Coffee, Bed, Info, Sparkles, X, Send, Loader2 } from 'lucide-react-native';
 
 // API KEY 설정 (여기에 실제 키를 넣거나 환경변수 설정을 해야 합니다)
-const API_KEY = "AIzaSyA3mLPyMbFjiyrZ4A7gTqThJvkbFVXj87w"; 
+
 
 const scheduleData = [
   {
