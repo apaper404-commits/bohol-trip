@@ -16,7 +16,7 @@ const validateApiKey = () => {
   return true;
 };
 
-// ... (나머지 코드는 동일)
+// ... (나머지 코드는 동일)ㅜㅜ
 
 const handleSend = async () => {
     if (!validateApiKey()) {
