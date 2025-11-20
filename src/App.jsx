@@ -1,4 +1,4 @@
-const API_KEY = "AIzaSyA3mLPyMbFjiyrZ4A7gTqThJvkbFVXj87w";
+const API_KEY = "AIzaSyAzUW7TzTYMaYmC6RLUHA61HO2l3DFF-N4";
 
 import React, { useState, useEffect, useRef } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, TextInput, Modal, Alert, SafeAreaView, StatusBar, Platform } from 'react-native';
