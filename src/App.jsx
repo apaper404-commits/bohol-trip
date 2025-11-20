@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Plane, Waves, Sun, Moon, Utensils, MapPin, Camera, Coffee, Bed, ArrowRight, Info, Sparkles, X, MessageCircle, Send, Loader2, CheckSquare, Languages, Volume2 } from 'lucide-react';
-const apiKey = "AIzaSyA3mLPyMbFjiyrZ4A7gTqThJvkbFVXj87w"
+const API_KEY = "AIzaSyA3mLPyMbFjiyrZ4A7gTqThJvkbFVXj87w";
 const scheduleData = [
   {
     dayId: 0,
